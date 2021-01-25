@@ -1,0 +1,30 @@
+@tailwind base;
+
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  @apply text-primary-lighter;
+}
+a:hover {
+  @apply text-primary-lighter;
+  @apply underline;
+}
+h1{
+  @apply text-primary;
+  
+}
+h2{
+  @apply text-primary-darker; 
+  
+}
+h3{
+  @apply text-secondary;
+  
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
