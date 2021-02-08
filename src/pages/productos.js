@@ -26,12 +26,12 @@ export default () => (
   
 <section id="productos" className="pt-6">
   <div className="container mx-auto bg-white bg-opacity-50">
-    <h1 className="text-center sm:text-3xl text-2xl font-medium title-font">Productos</h1>
+    <h1 className="text-center sm:text-4xl text-2xl font-bold title-font mb-8">Productos</h1>
     <SplitSection 
         primarySlot={
           <div className="px-8 py-10 bg-gray-200 rounded-xl">
             <h2 className="text-xl">Un portafolio completo de productos de limpieza para resolver todas sus necesidades de higiene institucional.</h2>
-            <p className="md:w-full text-left leading-relaxed text-base text-gray-700">
+            <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
               Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
               Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
             </p>
@@ -41,7 +41,7 @@ export default () => (
           <PictureWebp className="float-right" filename="productos" description="Productos de limpieza"/>
         }/>
     <div className="w-full">
-      <h2 className="text-md text-blue-500 tracking-widest font-medium title-font text-center">Líneas de Productos</h2>        
+      <h2 className="text-blue-500 font-medium title-font text-center my-10 text-decoration: underline text-2xl ">Líneas de Productos</h2>        
       <div className="flex flex-wrap">
       
         {productsData.map(product => (

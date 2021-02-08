@@ -66,12 +66,12 @@ export default () => (
 </section>
     
 <section id="productos" className="pt-20">
-  <div className="container mx-auto bg-white bg-opacity-50">
-    <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-10">Un portafolio completo y especializado de productos de limpieza</h2>
+  <div className="container mx-auto bg-white bg-opacity-50 bg-white bg-oppacity-50">
+    <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-10 mb-10">Un portafolio completo y especializado de productos de limpieza</h2>
     <SplitSection 
         primarySlot={
-          <div className="">
-          <p className="md:w-full text-left leading-relaxed text-base text-gray-700">
+          <div className="p-16">
+          <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
           Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
@@ -95,7 +95,7 @@ export default () => (
 </section>
    
 <SplitSection id="services"
-       className="bg-gradient-to-br from-white via-gray-400 to-white"
+       className="bg-gradient-to-br from-white via-gray-400 to-white mb-12"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
           <h3 className="text-3xl font-semibold leading-tight">Servicios de limpieza y desinfección Especializados</h3>
@@ -113,13 +113,13 @@ export default () => (
 />
     
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-400 via-white to-blue-200"
+      reverseOrder className="bg-gradient-to-r from-green-600 via-white to-green-200 "
       primarySlot={
         <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg">
           <h3 className="text-3xl font-semibold leading-tight">
             Somos una empresa socialmente responsable.
           </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className="mt-8 text-xl font-light leading-relaxed ">
           Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.  
           </p>
           <Link to="/responsabilidad-social" className="mt-4 text-blue-500 inline-flex items-center">Conocer más

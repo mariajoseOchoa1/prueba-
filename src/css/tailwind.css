@@ -23,6 +23,19 @@ h3{
   @apply text-secondary;
   
 }
+#contenedor{
+  width: 500x;
+  margin: 20;
+  
+}
+#contenedorgrande{
+  width: 100%;
+  position: relative;
+  margin: 20;
+
+}
+
+  
 
 
 @tailwind components;

@@ -25,10 +25,10 @@ export default () => (
       id="product-detail" className="bg-gradient-to-br from-white via-gray-400 to-white"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg px-6 pt-8 pb-6 ml-25">
-          <h1 className="font-bold text-xl">Ozz Desinfectante de superficies ultra-concentrado </h1>
-          <h2 className="font-semibold text-lg text-secondary">a base de Amonios cuaternarios de 5ta Generación</h2>
-          <p className="mt-8 text-md font-light leading-relaxed">
-          Desinfectante de superficies Bacterac Ozz® es un sanitizante y desinfectante neutro de superficies duras no-porosas, altamente concentrado, formulado a partir de amonios cuaternarios de quinta generación como ingrediente activo, mismos que brindan un amplio espectro de acción biocida contra bacterias gram +, gram -, hongos y virus. Usado correctamente presenta una disminución de  la carga microbiana* de 5 log (99.999%) en 5 minutos de contacto con la superficie, incluyendo virus envueltos como el SARSCoV2 causante del Covid-19+.
+          <h1 className="font-bold text-xl text-center">Desinfectante de superficies ultra-concentrado Ozz </h1>
+          <h2 className="font-semibold text-lg text-secondary text-center">A base de Amonios cuaternarios de 5ta Generación</h2>
+          <p className="mt-8 text-md font-light leading-relaxed text-justify">
+          Desinfectante de superficies Bacterac Ozz® es un sanitizante y desinfectante neutro de superficies duras no-porosas, altamente concentrado, formulado a partir de amonios cuaternarios de quinta generación como ingrediente activo. Usado correctamente presenta una disminución de  la carga microbiana* de 5 log (99.999%) en 5 minutos de contacto con la superficie, incluyendo virus envueltos como el SARSCoV2 causante del Covid-19+.
           </p>
           <br/>
           <Button className="bg-primary shadow-md hover:bg-primary-darker rounded-xl" >
